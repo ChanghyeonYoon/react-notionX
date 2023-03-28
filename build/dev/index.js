@@ -2066,7 +2066,6 @@ var Block = (props) => {
     hideBlockId,
     disableHeader
   } = props;
-  console.log({ block });
   if (!block) {
     return null;
   }

@@ -88,8 +88,6 @@ export const Block: React.FC<BlockProps> = (props) => {
     disableHeader
   } = props
 
-  console.log({ block })
-
   if (!block) {
     return null
   }
